@@ -1,3 +1,33 @@
 body{
+	background: #999;
+	font-family: arial;
+}
+
+h1, h2, li {
+	color: #555;
+}
+
+a {
+	color: green;
+}
+
+p {
+	background: #666;
+	color: white;
+	/*the padding shows TOPpx, RIGHTpx, BOTTOMpx, LEFTpx 
+	-- if just one then it applies to all sides*/
+	padding: 10px 0px 5px 10px;
+}
+
+/* a period means looking for a "class" 
+-- CSS says the last code is what should be applied EXCEPT with classes
+they are not overridden because they are specific*/
+.secondary {
+	background: none;
+	color: #777;
+}
+
+#special {
 	background: red;
+	color: white;
 }
